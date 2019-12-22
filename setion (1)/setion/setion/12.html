@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    
+</head>
+
+<body>
+    <legend>round: </legend>
+    <input type="text" id="round1">
+    <button onclick="round2()">click to round</button>
+    <br><br>
+    <legend>pow:</legend>
+    <input type="text" id="pow1">
+    <button onclick="pow2()">click to pow</button>
+    <br><br>
+    <legend>sqrt:</legend>
+    <input type="text" id="sqrt1">
+    <button onclick="sqrt2()">click to root</button>
+    <br><br>
+    <legend> abs:</legend>
+    <input type="text" id="abs1">
+    <button onclick="abs2()">click to positive</button>
+    <br><br>
+</body>
+<script>
+    function round2() {
+        var x = document.getElementById("round1").value;
+        var round = Math.round(x);
+        alert(round);
+        // گرد یا روند کردن
+    }
+
+    function pow2() {
+        var y = document.getElementById("pow1").value;
+        var pow = Math.pow(y, 3)
+        alert(pow);
+
+        // توان
+    }
+
+    function sqrt2() {
+        var z = document.getElementById("sqrt1").value;
+        var sqrt = Math.sqrt(z)
+        alert(sqrt);
+        // جذر
+    }
+
+    function abs2() {
+        var n = document.getElementById("abs1").value;
+        var result = Math.abs(n)
+        alert(abs)
+        // قدر مطلق
+    }
+
+
+
+
+
+    // var result=Math.ceil(3.2)
+    // document.getElementById("lbl").innerHTML=result;
+    // // رو به بالا روند میکنه فقط
+
+
+
+
+
+
+
+    // var result=Math.floor(3.9)
+    // document.getElementById("lbl").innerHTML=result;
+    // // رو به پایین روند میکند فقط
+
+
+
+    // var result=Math.min(50,60,4,0,8,9,20,-1)
+    // document.getElementById("lbl").innerHTML=result;
+    // // کوچکترین عضو را میدهد
+
+
+
+
+
+
+    // var result=Math.max(50,60,4,0,8,9,20,-1)
+    // document.getElementById("lbl").innerHTML=result;
+    // بزرگترین عضو را میدهد
+
+
+    // تابع ی بنویسید که از بین تعداد دلخواه اعداد کوچکترین و بزرگترین اعداد را پیدا کند
+
+
+
+
+
+    // var result=Math.random();
+    //  document.getElementById("lbl").innerHTML=result;
+    //  باید امتحان کرد تا وضیفه اش را فهمید
+
+
+
+
+
+
+    // var result=Math.floor(Math.random()*10*2);
+    //  document.getElementById("lbl").innerHTML=result;
+    //  باید امتحان کرد تا وضیفه اش را فهمید
+</script>
+
+</html>
